@@ -4,7 +4,7 @@ import Image from "next/image";
 import {Libre_Bodoni} from 'next/font/google'
 const libre = Libre_Bodoni ({subsets:["latin"]})
 
-const Homepage = () => {
+const Home = () => {
   return (
     <div className="h-screen">
       <Header></Header>
@@ -24,9 +24,9 @@ const Homepage = () => {
         <div className="w-1/2 flex justify-center items-center mt-24">
           <Image
             src={"/Image/img.jpg"}
-            alt="Jewellary image"
+            alt="app image"
             width={242}
-            height={311}
+            height={312}
           />
         </div>
       </div>
@@ -34,4 +34,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;
