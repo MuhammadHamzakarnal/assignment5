@@ -9,7 +9,7 @@ const Homepage = () => {
     <div className="h-screen">
       <Header></Header>
       <div className="flex h-[80%]">
-        <div className="w-1/2 flex flex-col justify-center items-start m-12 mt-72">
+        <div className="w-1/2 flex flex-col justify-center items-start m-12 mt-36">
           <h1 className={`${libre.className} text-[40px] font-bold`}>
             IMPECCABLE CRAFTSMANSHIP AND FINESSE
           </h1>
@@ -17,16 +17,16 @@ const Homepage = () => {
             An example of intricate workmanship and detail, elegant necklaces
             and long and short chains form a part of our desirable collection.
           </p>
-          <button className={`${libre.className} bg-[#A29875] rounded-[10px] p-[10px] gap[10px] font-medium text-3xl text-[#FFFFFF]`}>
+          <button className={`${libre.className} bg-[#A29875] rounded-[10px] p-[7px] gap[10px] font-medium text-2xl text-[#FFFFFF] mt-4 hover:text-blue-500`}>
             Explore Now
           </button>
         </div>
-        <div className="w-1/2 flex justify-center items-center mt-56">
+        <div className="w-1/2 flex justify-center items-center mt-24">
           <Image
             src={"/Image/img.jpg"}
             alt="Jewellary image"
-            width={442}
-            height={611}
+            width={242}
+            height={311}
           />
         </div>
       </div>
