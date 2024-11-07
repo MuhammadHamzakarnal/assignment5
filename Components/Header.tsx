@@ -9,10 +9,11 @@ const rye = Rye({
 const Header = () => {
   return (
     <header>
-      <nav className="bg-[#A29875] h-20">
+      <nav style={{ height: "134px" }} className="bg-[#A29875] h-20">
         <div>
           <h1
-            className={`${rye.className} text-[#FFFFFF] font-normal text-6xl`}
+            className={`${rye.className} text-[#FFFFFF] font-normal `}
+            style={{ fontSize: "75px" }}
           >
             MANZZARI
           </h1>
@@ -21,5 +22,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;
