@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header>
       <nav className="bg-[#A29875] h-[134px]">
-        <div style={{ height: "134px" }}>
+        <div>
           <h1
             className={`${rye.className} text-[#FFFFFF] font-normal text-[75px]`}
           >

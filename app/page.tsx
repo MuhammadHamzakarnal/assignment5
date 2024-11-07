@@ -15,7 +15,7 @@ const Home = () => {
           </h1>
           <p className={`${libre.className} text-[30px] font-medium`}>
             An example of intricate workmanship and detail, elegant necklaces
-            and long and short chains form a part of our desirable collection.
+            and long and short chains form a parts of our desirable collection.
           </p>
           <button className={`${libre.className} bg-[#A29875] rounded-[10px] p-[7px] gap[10px] font-medium text-2xl text-[#FFFFFF] mt-4 hover:text-blue-500`}>
             Explore Now
@@ -25,8 +25,8 @@ const Home = () => {
           <Image
             src={"/Image/img.jpg"}
             alt="app image"
-            width={242}
-            height={312}
+            width={243}
+            height={311}
           />
         </div>
       </div>
